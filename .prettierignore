@@ -1,0 +1,9 @@
+.astro
+.contentlayer
+.next
+build
+dist
+drizzle
+node_modules
+pnpm-lock.yaml
+remix-routes.d.ts

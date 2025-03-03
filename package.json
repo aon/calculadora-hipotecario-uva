@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@astrojs/react": "^4.2.1",
@@ -18,5 +19,9 @@
     "react-dom": "^19.0.0",
     "tailwindcss": "^4.0.9"
   },
-  "packageManager": "pnpm@10.5.2+sha256.79a98daa90248b50815e31460790f118c56fe099113370826caa0153be6daba5"
+  "packageManager": "pnpm@10.5.2+sha256.79a98daa90248b50815e31460790f118c56fe099113370826caa0153be6daba5",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
+  }
 }
